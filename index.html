@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Israel Batista</title>
+</head>
+
+<body>
+    <header>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section>
+            <img circle src="assets/perfil-insta.png" alt="Foto de perfil Israel Batista" width="200">
+            <h1>Israel Batista</h1>
+                <p>Desenvolvedor Front-end e fotógrafo.<br>
+                Tenho 23 anos, sou casado. Nasci em Macaé - RJ. Comida favorita: Lasanha<br>
+                Espero que você me conheça melhor, curta meu portfolio. E se você se interessar, entre em contato!<br>
+                Eu pago o café, e você o pão de quejo.</p>
+        </section>
+        
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <article>
+                <h4>Projeto 1</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quos blanditiis nemo nesciunt quidem
+                    molestias asperiores, suscipit eaque distinctio magni? Reiciendis blanditiis ea porro cum facilis.
+                    Ea nam dicta consequatur!</p>
+                <h4>Projeto 2</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quos blanditiis nemo nesciunt quidem
+                    molestias asperiores, suscipit eaque distinctio magni? Reiciendis blanditiis ea porro cum facilis.
+                    Ea nam dicta consequatur!</p>
+            </article>
+        </section>
+
+        <section>
+            <h2 id="sobre">Sobre mim</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Sed quos blanditiis nemo nesciunt quidem molestias asperiores, suscipit eaque distinctio magni?<br>
+                Reiciendis blanditiis ea porro cum facilis. Ea nam dicta consequatur!</p>
+            
+            <h4>Minha motivação</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                Sed quos blanditiis nemo nesciunt quidem molestias asperiores, suscipit eaque distinctio magni?<br>
+                Reiciendis blanditiis ea porro cum facilis. Ea nam dicta consequatur!</p>
+        </section>
+
+        <section>
+            <h2 id="contato">Contato</h2>
+                <form name="formulario" action="#" method="post">
+                <input type=hidden name="destino" value="israel.fbb@gmail.com">
+                    <p>Fale comigo, pra gente marcar aquele café com pão de queijo, pelo formulário abaixo:</p>
+                    
+                    <p class="nome">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nomeid" placeholder="Digita seu nome aí" required="required" name="nome" />
+                    </p>
+                    
+                    <p class="fone">
+                        <label for="fone">Fone</label>
+                        <input type="text" id="foneid" placeholder="(01) 2345-6789" name="fone" />
+                    </p>
+                    
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" />
+                    </p>
+                    
+                    <p>
+                        <label for="mensagem">Mensagem</label>
+                        <textarea placeholder="Deixe sua opnião"></textarea>
+                    </p>
+                    <p class="submit">
+                        <input type="submit" value="Enviar" />
+                    </p>
+                </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright © 2020 Israel Batista</p>
+    </footer> 
+
+</body>
+
+</html>
