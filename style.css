@@ -41,7 +41,7 @@ h1, h2 {
 header {
     width: 100%;
     height: 100%;
-    background: linear-gradient(to left, rgba(1, 23, 32, 0.7), rgba(104, 104, 104, 0.8)), url('/assets/me/IMG_8890-2.jpg');
+    background: linear-gradient(to left, rgba(1, 23, 32, 0.7), rgba(104, 104, 104, 0.8)), url('assets/me/IMG_8890-2.jpg');
     background-size: cover;
     background-position: center;
 
