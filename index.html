@@ -5,94 +5,213 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Israel Batista</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+
+
+    <title>Israel Batista | Desenvolvedor Front-end & Fotógrafo</title>
 </head>
 
 <body>
-    <header>
-        <nav id="menu">
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#sobre">Sobre mim</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div id="container">
+
+        <header>
+
+            <nav id="menu">
+                <img class="logo" src="/assets/logo.png" alt="Logo Israel Batista">
 
 
-    <main>
-        <section>
-            <img circle src="assets/perfil-insta.png" alt="Foto de perfil Israel Batista" width="200">
-            <h1>Israel Batista</h1>
-                <p>Desenvolvedor Front-end e fotógrafo.<br>
-                Tenho 23 anos, sou casado. Nasci em Macaé - RJ. Comida favorita: Lasanha<br>
-                Espero que você me conheça melhor, curta meu portfolio. E se você se interessar, entre em contato!<br>
-                Eu pago o café, e você o pão de quejo.</p>
-        </section>
-        
-        <section id="portfolio">
-            <h2>Portfolio</h2>
-            <article>
-                <h4>Projeto 1</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quos blanditiis nemo nesciunt quidem
-                    molestias asperiores, suscipit eaque distinctio magni? Reiciendis blanditiis ea porro cum facilis.
-                    Ea nam dicta consequatur!</p>
-                <h4>Projeto 2</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quos blanditiis nemo nesciunt quidem
-                    molestias asperiores, suscipit eaque distinctio magni? Reiciendis blanditiis ea porro cum facilis.
-                    Ea nam dicta consequatur!</p>
-            </article>
-        </section>
+                <input id="navbar" type='checkbox'>
+                <label for="navbar">
+                    <div class='menu'>
+                        <span class='hamburger'></span>
+                    </div>
+                </label>
 
-        <section>
-            <h2 id="sobre">Sobre mim</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                Sed quos blanditiis nemo nesciunt quidem molestias asperiores, suscipit eaque distinctio magni?<br>
-                Reiciendis blanditiis ea porro cum facilis. Ea nam dicta consequatur!</p>
-            
-            <h4>Minha motivação</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                Sed quos blanditiis nemo nesciunt quidem molestias asperiores, suscipit eaque distinctio magni?<br>
-                Reiciendis blanditiis ea porro cum facilis. Ea nam dicta consequatur!</p>
-        </section>
+                <ul class="menuList">
+                    <li><a class="menuBtn" href="index.html">Início</a></li>
+                    <li><a class="menuBtn" href="#sobre">Sobre mim</a></li>
+                    <li><a class="menuBtn" href="#portfolio">Portfolio</a></li>
+                    <li><a class="menuBtn" href="#empreendendo">Empreendendo</a></li>
+                </ul>
+            </nav>
 
-        <section>
-            <h2 id="contato">Contato</h2>
-                <form name="formulario" action="#" method="post">
-                <input type=hidden name="destino" value="israel.fbb@gmail.com">
-                    <p>Fale comigo, pra gente marcar aquele café com pão de queijo, pelo formulário abaixo:</p>
-                    
-                    <p class="nome">
-                        <label for="nome">Nome</label>
-                        <input type="text" id="nomeid" placeholder="Digita seu nome aí" required="required" name="nome" />
-                    </p>
-                    
-                    <p class="fone">
-                        <label for="fone">Fone</label>
-                        <input type="text" id="foneid" placeholder="(01) 2345-6789" name="fone" />
-                    </p>
-                    
-                    <p>
-                        <label for="email">Email</label>
-                        <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" />
-                    </p>
-                    
-                    <p>
-                        <label for="mensagem">Mensagem</label>
-                        <textarea placeholder="Deixe sua opnião"></textarea>
-                    </p>
-                    <p class="submit">
-                        <input type="submit" value="Enviar" />
-                    </p>
-                </form>
-        </section>
-    </main>
+            <div class="headerDiv">
+                <h1 class="myName typing-animation">Olá, sou Israel Batista</h1>
+                <h3>– Desenvolvedor Front-end & Fotógrafo</h3>
+                <a class="headerBtn" href="https://www.linkedin.com/in/israel-batista/" target="_blank">Entre em contato
+                    pelo linkedin</a>
+            </div>
 
-    <footer>
-        <p>Copyright © 2020 Israel Batista</p>
-    </footer> 
+        </header>
 
+
+        <main>
+            <section id="sobre">
+                <img class="meOne" src="assets/me/IMG_8948-2.jpg" alt="Foto de perfil Israel Batista" width="300">
+                <div class="sobreDesc">
+                    <h2>Sobre mim</h2>
+                    <h3>Desenvolvedor Front-end e fotógrafo.</h3>
+
+                    <div class="sobreDescParag">
+                        <p class="textP">Tenho 23 anos, e sou casado. Nasci em Macaé - RJ.
+                            Mas atualmente moro em Olinda, e já estou há mais de 8 anos em Pernambuco.</p>
+                        <p class="textP">Atualmente trabalho de freelancer, com atualização de sites em wordpress.
+                            E estou no final do curso de programação em Front-end.
+                            Experiências que possuo: fotografia, social media e designer.</p>
+                        <p class="textP">No meu tempo livre, curto muito viajar, fazer exercício ou jogar bola,
+                            e gosto também de jogar Fifa e algum fps (cs go, atualmente).</p>
+                        <p class="textP">Caso queira me mandar um alô, abaixo estão as minhas redes sociais.</p>
+                    </div>
+
+
+                    <div class="sobreIcon">
+                        <ul>
+                            <li><a href="https://twitter.com/_Israelbatista" target="_blank"><img
+                                        src="/assets/icon/svg/014-twitter.svg" alt="Logo do Twitter"></a></li>
+                            <li><a href="" target="_blank"><img src="/assets/icon/svg/034-instagram.svg"
+                                        alt="Logo do Instagram"></a></li>
+                            <li><a href="https://www.behance.net/israelfbb8825" target="_blank"><img
+                                        src="/assets/icon/svg/054-behance.svg" alt="Logo do Behance"></a></li>
+                            <li><a href="https://github.com/israelfer" target="_blank"><img
+                                        src="/assets/icon/svg/039-github.svg" alt="Logo do Github"></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/israel-batista/" target="_blank"><img
+                                        src="/assets/icon/svg/031-linkedin.svg" alt="Logo do Linkedin"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="skills">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li><img class="btnSkills" src="/assets/icon/html5.svg" alt=""></li>
+                    <li><img class="btnSkills" src="/assets/icon/css.svg" alt=""></li>
+                    <li><img class="btnSkills" src="/assets/icon/javascript.svg" alt=""></li>
+                    <li><img class="btnSkills" src="/assets/icon/wordpress.svg" alt=""></li>
+                    <li><img class="btnSkills" src="/assets/icon/photoshop.svg" alt=""></li>
+                </ul>
+
+            </section>
+
+            <section id="portfolio">
+                <h2>Portfolio</h2>
+                <div class="projet">
+                    <div class="projetS">
+                        <h3>Toda Escritura</h3>
+                        <img class="projetSimg" src="/assets/projects/toda-escritura.png"
+                            alt="Projeto do site Toda Escritura">
+                        <p>Criação do site como um portal de conteúdo cristão e reformado. Feito em Wordpress.
+                            Tenho acrescentado conteúdo semanalmente.
+                        </p>
+                        <a class="projetSBTN" href="https://todaescritura.org/" target="_blank">Saiba
+                            mais</a>
+                    </div>
+
+                    <div class="projetS">
+
+                        <h3>Poupe Line | Contabilidade</h3>
+                        <img class="projetSimg" src="/assets/projects/poupe-line.png" alt="Projeto Poupe Line">
+                        <p>Criação de um site fake de Contabilidade. Com o intuito de somar ao portfolio. Acesse o
+                            repositório do projeto, pelo botão abaixo.</p>
+                        <a class="projetSBTN" href="https://github.com/Israelfer/Poupe-line" target="_blank">Saiba
+                            mais</a>
+                    </div>
+                </div>
+
+                <div class="projet">
+                    <div class="projetS">
+                        <h3>Contador</h3>
+                        <img class="projetSimg" src="/assets/projects/contador.jpg" alt="Projeto Contador">
+                        <p>Projeto criado para contar ou subtrair também. Utilizei meus conhecimentos de
+                            Html 5, Css e javascript. Atividade do curso de Front-end da Start Latam.
+                        </p>
+                        <a class="projetSBTN" href="https://github.com/Israelfer/Counter" target="_blank">Saiba
+                            mais</a>
+                    </div>
+
+                    <div class="projetS">
+
+                        <h3>Um Flamenguista em Recife</h3>
+                        <img class="projetSimg" src="/assets/projects/flamenguista-recife.png" alt="Projeto Poupe Line">
+                        <p>Criação de um blog fake. Como sou flamenguista, fiz do meu time de coração.
+                            Atividade do curso de Front-end da Start Latam.
+                        </p>
+                        <a class="projetSBTN" href="https://github.com/Israelfer/flamenguista-recife" target="_blank">Saiba
+                            mais</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="empreendendo">
+                <h2>Empreendendo</h2>
+                <p class="empreendendoP"> "Empreender é se jogar de um precipício e construir um avião durante a queda"
+                    – Reid Hoffman, cofundador do LinkedIn</p>
+
+                <div class="empreen">
+                    <div class="empreenFoto">
+                        <img class="empreenImg" src="/assets/empre/fotografia.png" alt="Projeto Contador">
+                        <div class="empreenBlock">
+                            <h3>Aline Guedes - Fotografia</h3>
+                            <p class="textP">Trabalho que admnistro junto com a minha esposa Aline.
+                                A empresa está com o nome dela, pois a princípio, antes de casar ela já trabalhava com
+                                fotografia.
+                            </p>
+                            <p class="textP">Fotografia é uma paixão que temos em comum!
+                                A foto ao lado (do nosso ensaio pre-wedding) retrata um pouco disso.
+                            </p>
+                            <p class="textP">Eu antes já fotografava como hobby, com a minha sony. Mas não tinha muita
+                                noção do trabalho e do mercado de trabalho.
+                                Aprendi muito com ela (Aline). E também concluí um curso profissional, para me
+                                especializar ainda mais.
+                            </p>
+                            <p class="textP">Nossos trabalhos são mais centrados na fotografia de família.</p>
+                            <a class="btnEmpreen" href="https://www.instagram.com/alineguedesfotografia/"
+                                target="_blank">Veja nosso instagram</a>
+                        </div>
+
+                    </div>
+
+                    <div class="empreenLaranja">
+                        <img class="empreenImg" src="/assets/empre/Laranja-mimo.png" alt="Projeto Contador">
+                        <div class="empreenBlock">
+                            <h3>Laranja Mimo - Presentes</h3>
+
+                            <p class="textP">A lojinha virtual, Laranja Mimo Presentes, teve início em meio a pandemia
+                                do
+                                corona vírus. Criada por um casal de fotógrafos, que decidiram investir
+                                e arriscar nesse projeto...
+                            </p>
+
+                            <p class="textP">Nosso intuito é aproximar as pessoas em meio a quarentena.
+                                Nosso primeiro desafio já seria tão rápido, dia dos namorados.
+                                Buscamos trazer itens e presentes num preço acessível.</p>
+
+                            <p class="textP">Nossa loja tem procurado por presentes criativos e únicos com muito amor e
+                                carinho
+                                para você presentear quem ama. Esperamos que nossos produtos façam parte de
+                                momentos felizes e tragam mais alegria para as suas datas comemorativas!</p>
+
+                            <p class="textP">Conheça a nossa página no instagram, e os nossos produtos. Fazemos
+                                entregas!</p>
+                            <a class="btnEmpreen" href="https://www.instagram.com/laranjamimo.presentes/"
+                                target="_blank">Conheça a Laranja Mimo</a>
+                        </div>
+
+                    </div>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <p class="footerP">Copyright © 2020 - Feito por Israel Batista</p>
+        </footer>
+    </div>
 </body>
 
 </html>
