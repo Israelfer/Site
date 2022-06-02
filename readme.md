@@ -1,6 +1,8 @@
 # Site / portfolio
 
-Criação do meu site pessoal / portfolio
+Criação do meu site pessoal para fins de estudos.
+
+O site oficial mesmo é repositório Portfolio.
 
 ## Preview
 
